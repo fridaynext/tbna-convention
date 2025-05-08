@@ -1,0 +1,70 @@
+/*
+ Theme Name:   TBNA Convention
+ Description:  Divi Child Theme
+ Author:       Friday Next
+ Author URI:   https://friday-next.com
+ Template:     Divi
+ Version:      1.0.16
+ Text Domain:  divi-child
+*/
+
+@media screen and (min-width: 56.875em) {
+	body.page-template-map-template #primary.full-width {
+		width: 100% !important;
+	}
+}
+.woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce button.button, .woocommerce-page button.button, .woocommerce button.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce button.button, .woocommerce-page button.button:hover, .woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled], .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover, .woocommerce input.button, .woocommerce-page input.button, .woocommerce input.button:hover, .woocommerce-page input.button:hover, .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce a.button, .woocommerce-page a.button {
+	color: #FFF;
+}
+#et_search_icon:hover, .mobile_menu_bar:before, .mobile_menu_bar:after, .et-social-icon a:hover, .comment-reply-link, .form-submit .et_pb_button, .entry-summary p.price ins, .woocommerce div.product span.price, .woocommerce-page div.product span.price, .woocommerce #content div.product span.price, .woocommerce-page #content div.product span.price, .woocommerce div.product p.price, .woocommerce-page div.product p.price, .woocommerce #content div.product p.price, .woocommerce-page #content div.product p.price, .woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before, .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce a.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce a.button:hover, .woocommerce-page a.button:hover, .woocommerce button.button, .woocommerce-page button.button:hover, .woocommerce input.button:hover, .woocommerce-page input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce-page #respond input#submit:hover, .woocommerce #content input.button:hover, .wp-pagenavi span.current, .wp-pagenavi a:hover, .et_password_protected_form .et_submit_button, .nav-single a, #top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a, .bottom-nav li.current-menu-item > a, .footer-widget h4 {
+	color: #FFF;
+}
+body.single-product span.woocommerce-Price-amount.amount, body.single-product .posted_in a {
+	color: #1c6e62;
+}
+body.single-product div.sale ins span.woocommerce-Price-amount.amount {
+	color: #F00;
+}
+body.single-product div[itemprop="description"] {
+	padding-top: 20px;
+}
+.woocommerce div.product p.price, .woocommerce-page div.product p.price {
+	color: #000 !important;
+}
+body.single-product div.sale p.price {
+	padding-bottom: 0;
+}
+span.member-price {
+	color: #1c6e62;
+}
+.woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce-message, .woocommerce-error, .woocommerce-info {
+	background: #1c6e62 !important;
+}
+/* Disabling Menu on Home and Under 21 Page */
+header ul.disabled li.menu-item a {
+	color: rgba(0, 0, 0, 0.6) !important;
+}
+.entry-summary p.price p.earlybird-tickets {
+	font-size: 16px;
+}
+/* Bigger remove button */
+.woocommerce a.remove {
+	font-size: 3em;
+}
+.woocommerce-cart table.cart td {
+	vertical-align: top;
+}
+/* Bigger booth / table product page map image */
+@media( min-width: 900px ) {
+	body.single-product div.product_cat-booth div.images , body.single-product div.product_cat-table div.images {
+		width: 65%;
+	}
+	body.single-product div.product_cat-booth div.summary , body.single-product div.product_cat-table div.summary {
+		width: 31%;
+	}
+}
+
+/* Change quantity field to look better */
+.single-product div.product_cat-ticket div.quantity input {
+	background-color: #000 !important;
+}
